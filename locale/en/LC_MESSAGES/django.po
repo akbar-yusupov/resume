@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-29 03:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\main\forms.py:9 .\main\models.py:140
+msgid "From Whom"
+msgstr "From Whom"
+
+#: .\main\forms.py:15
+msgid "Enter site/email"
+msgstr "Enter site/email"
+
+#: .\main\forms.py:20 .\main\models.py:61 .\main\models.py:116
+#: .\main\models.py:141
+msgid "Title"
+msgstr "Title"
+
+#: .\main\forms.py:26
+msgid "Enter title"
+msgstr "Enter title"
+
+#: .\main\forms.py:31 .\main\models.py:142
+msgid "Message"
+msgstr "Message"
+
+#: .\main\forms.py:37
+msgid "Enter message"
+msgstr "Enter message"
+
+#: .\main\models.py:11
+msgid "Full time job"
+msgstr "Full time job"
+
+#: .\main\models.py:12
+msgid "Part-time job"
+msgstr "Part-time job"
+
+#: .\main\models.py:13 .\templates\main\index.html:55
+msgid "Busy"
+msgstr "Busy"
+
+#: .\main\models.py:16
+msgid "Remote work"
+msgstr "Remote work"
+
+#: .\main\models.py:17
+msgid "Daily Commute"
+msgstr "Daily Commute"
+
+#: .\main\models.py:19
+msgid "Photo"
+msgstr "Photo"
+
+#: .\main\models.py:21 .\templates\main\index.html:36
+msgid "Citizenship"
+msgstr "Citizenship"
+
+#: .\main\models.py:23
+msgid "City"
+msgstr "City"
+
+#: .\main\models.py:24 .\main\models.py:62
+msgid "Description"
+msgstr "Description"
+
+#: .\main\models.py:25
+msgid "Birth Date"
+msgstr "Birth Date"
+
+#: .\main\models.py:27
+#, fuzzy
+#| msgid "Job title"
+msgid "Job Title"
+msgstr "Job Title"
+
+#: .\main\models.py:30
+msgid "Job Status"
+msgstr "Job Status"
+
+#: .\main\models.py:33
+msgid "Job Type"
+msgstr "Job Type"
+
+#: .\main\models.py:36
+msgid "Ready To Relocate"
+msgstr "Ready To Relocate"
+
+#: .\main\models.py:44
+msgid "User"
+msgstr "User"
+
+#: .\main\models.py:45
+msgid "Users"
+msgstr "Users"
+
+#: .\main\models.py:49 .\main\models.py:102 .\templates\main\index.html:32
+msgid "Name"
+msgstr "Name"
+
+#: .\main\models.py:55
+msgid "Skill"
+msgstr "Skill"
+
+#: .\main\models.py:56
+msgid "Skills"
+msgstr "Skills"
+
+#: .\main\models.py:60
+msgid "Start date"
+msgstr "Start date"
+
+#: .\main\models.py:63
+msgid "End date"
+msgstr "End date"
+
+#: .\main\models.py:72
+#, fuzzy
+#| msgid "The start should be earlier than end"
+msgid "The start date should be earlier than end date"
+msgstr "The start should be earlier than end"
+
+#: .\main\models.py:75 .\main\models.py:76
+msgid "Work Experience"
+msgstr "Work Experience"
+
+#: .\main\models.py:81
+msgid "Institute"
+msgstr "Institute"
+
+#: .\main\models.py:82
+msgid "Faculty"
+msgstr "Faculty"
+
+#: .\main\models.py:83
+msgid "Specialization"
+msgstr "Specialization"
+
+#: .\main\models.py:84
+msgid "Is Completed"
+msgstr "Is Completed"
+
+#: .\main\models.py:90 .\main\models.py:91 .\templates\main\index.html:104
+msgid "Education"
+msgstr "Education"
+
+#: .\main\models.py:96
+msgid "beginner"
+msgstr "beginner"
+
+#: .\main\models.py:97
+msgid "pre-intermediate"
+msgstr "pre-intermediate"
+
+#: .\main\models.py:98
+msgid "intermediate"
+msgstr "intermediate"
+
+#: .\main\models.py:99
+msgid "upper intermediate"
+msgstr "upper intermediate"
+
+#: .\main\models.py:100
+msgid "native speaker"
+msgstr "native speaker"
+
+#: .\main\models.py:104
+msgid "Level"
+msgstr "Level"
+
+#: .\main\models.py:111
+msgid "Language"
+msgstr "Language"
+
+#: .\main\models.py:112 .\templates\main\index.html:123
+msgid "Languages"
+msgstr "Languages"
+
+#: .\main\models.py:117
+msgid "Short Description"
+msgstr "Short Description"
+
+#: .\main\models.py:118
+msgid "Body"
+msgstr "Body"
+
+#: .\main\models.py:119
+msgid "Image"
+msgstr "Image"
+
+#: .\main\models.py:121
+msgid "Technologies"
+msgstr "Technologies"
+
+#: .\main\models.py:123
+msgid "Slug"
+msgstr "Slug"
+
+#: .\main\models.py:124 .\main\models.py:143
+msgid "Created at"
+msgstr "Created at"
+
+#: .\main\models.py:125
+msgid "Is Active"
+msgstr "Is Active"
+
+#: .\main\models.py:134 .\main\models.py:135 .\templates\main\base.html:25
+#: .\templates\main\portfolio_list.html:3
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: .\main\models.py:149 .\templates\main\base.html:30
+msgid "Contact"
+msgstr "Contact"
+
+#: .\main\models.py:150
+msgid "Contacts"
+msgstr "Contacts"
+
+#: .\main\views.py:78
+msgid "Thank you. I will be in touch soon."
+msgstr "Thank you. I will be in touch soon."
+
+#: .\resume\settings.py:102
+msgid "English"
+msgstr "English"
+
+#: .\resume\settings.py:102
+msgid "Russian"
+msgstr "Russian"
+
+#: .\templates\404.html:14
+#, fuzzy
+#| msgid "The page you are looking for was not found."
+msgid "The page you are looking for has not been found."
+msgstr "The page you are looking for was not found."
+
+#: .\templates\404.html:15
+msgid "Back to Main"
+msgstr "Back to Main"
+
+#: .\templates\main\base.html:6 .\templates\main\index.html:3
+msgid "Main"
+msgstr "Main"
+
+#: .\templates\main\base.html:20
+msgid "На Главную"
+msgstr "Home"
+
+#: .\templates\main\base.html:45
+msgid "Send me an email"
+msgstr "Send me an email"
+
+#: .\templates\main\base.html:48
+msgid "Copyright"
+msgstr "Copyright"
+
+#: .\templates\main\base.html:48
+msgid "All rights reserved."
+msgstr "All rights reserved."
+
+#: .\templates\main\contact.html:3 .\templates\main\contact.html:7
+msgid "Contact me"
+msgstr "Contact me"
+
+#: .\templates\main\contact.html:19
+msgid "Submit"
+msgstr "Submit"
+
+#: .\templates\main\index.html:34
+msgid "years old (was born on"
+msgstr "years old (was born on"
+
+#: .\templates\main\index.html:40
+msgid "ready to relocate"
+msgstr "ready to relocate"
+
+#: .\templates\main\index.html:42
+msgid "not ready to relocate"
+msgstr "not ready to relocate"
+
+#: .\templates\main\index.html:69
+msgid "Work experience"
+msgstr "Work experience"
+
+#: .\templates\main\index.html:91
+msgid "Knowledge and Skills"
+msgstr "Knowledge and Skills"
+
+#: .\templates\main\index.html:109
+msgid "(completed):"
+msgstr "(completed):"
+
+#: .\templates\main\index.html:111
+msgid "(studying):"
+msgstr "(studying):"
+
+#: .\templates\main\index.html:130
+msgid "Additional information:"
+msgstr "Additional information:"
+
+#: .\templates\main\portfolio_list.html:10
+msgid "Active projects"
+msgstr "Active projects"
+
+#: .\templates\main\portfolio_list.html:12
+msgid "Search by"
+msgstr "Search by"
+
+#~ msgid "Home"
+#~ msgstr "Home"

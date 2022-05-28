@@ -1,0 +1,29 @@
+#profile-row{
+  background-color: white;
+  border-radius: 25px;
+  border-style: solid;
+}
+
+#profile-card{
+  background-color: #f2f4f4;
+  border-radius: 12px;
+}
+
+#profile-image{
+  width: 80%;
+  height: auto;
+}
+
+#profile-hr{
+  color: black;
+  opacity: 1;
+}
+
+.profile-headers{
+  color: #009900;
+}
+
+.profile-skill{
+  background-color: #DDE1E1;
+  opacity: 1;
+}

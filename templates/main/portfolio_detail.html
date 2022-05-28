@@ -1,0 +1,17 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %} {{ project.title }} {% endblock %}
+{% block stylesheet %}
+  <link rel="stylesheet" href="{% static 'main/css/portfolio_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+  <h1 class="text-center fw-bold my-3">{{ project.title }}</h1>
+  <img id="project-image" class="img-fluid mb-4" src="{{ project.image.url }}">
+  <div id="project-body" class="detail-project-body p-3">
+    {{ project.body|safe }}
+  </div>
+  <blockquote class="blockquote text-end">
+    <h3 class="p-2 mb-5 fw-bold">{{ project.created_at }}</h3>
+  </blockquote>
+{% endblock %}

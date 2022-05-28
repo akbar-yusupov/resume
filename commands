@@ -1,0 +1,5 @@
+flake8
+isort .
+black --line-length 79 .
+python manage.py makemessages --all --ignore venv
+python manage.py compilemessages --ignore venv

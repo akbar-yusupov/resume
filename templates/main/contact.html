@@ -1,0 +1,24 @@
+{% extends 'main/base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Contact me' %}{% endblock %}
+
+{% block content %}
+
+  <h1 class="my-5">{% trans 'Contact me' %}</h1>
+
+  <div class="row py-4">
+    <form method="post">
+      {% csrf_token %}
+      <label class="small fw-bold">{{ form.from_whom.label}}</label>
+      {{ form.from_whom }}
+      <label class="small fw-bold">{{ form.title.label}}</label>
+      {{ form.title }}
+      <label class="small fw-bold">{{ form.message.label}}</label>
+      {{ form.message }}
+      <button class="btn btn-primary my-2 px-5 fw-bold" type="submit">
+        {% trans 'Submit' %}
+      </button>
+    </form>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>{% block title %}{% trans 'Main' %}{% endblock %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'dependencies/bootstrap.min.css' %}">
+  <script src="{% static 'dependencies/jquery-3.5.1.min.js' %}"></script>
+  <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
+  <link rel="stylesheet" href="{% static 'main/css/base.css' %}">
+  {% block stylesheet %}{% endblock %}
+</head>
+<body>
+  <header class="header">
+    <nav id="nav" class="navbar navbar-expand-sm navbar-light">
+      <ul class="fs25 navbar-nav ms-auto fw-bold font-monospace">
+        <li class="nav-item px-2">
+          <a id="home" class="nav-link" href="{% url 'main:index' %}">
+            {% trans 'На Главную' %}
+          </a>
+        </li>
+        <li class="nav-item px-2">
+          <a id="portfolio" class="nav-link" href="{% url 'main:portfolio-list' %}">
+            {% trans 'Portfolio' %}
+          </a>
+        </li>
+        <li class="nav-item px-2 pe-4">
+          <a id="contact" class="nav-link" href="{% url 'main:contact' %}">
+            {% trans 'Contact' %}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="content" class="container-md">
+    {% block content %} {% endblock content %}
+  </div>
+
+  <footer id="footer" class="fixed-bottom mt-5">
+    <div class="container">
+      <a class="h2 my-2 text-primary fw-bold d-flex justify-content-center text-decoration-none"
+      href="mailto:{{me.email}}">
+        📧{% trans 'Send me an email' %}
+      </a>
+      <h5 class="my-3 text-white text-center">
+        {% trans 'Copyright' %} ©{% now 'Y' %} {% trans 'All rights reserved.' %}
+      </h5>
+    </div>
+  </footer>
+
+  <script>
+    var request_path = '{{ request.path }}';
+  </script>
+  <script src="{% static 'main/js/base.js' %}"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+Django
+Pillow
+python-dateutil
+flake8
+flake8-isort
+black
+django-modeltranslation
+django-ckeditor
+django-rosetta
+python-dotenv

@@ -1,0 +1,19 @@
+.fs25 {
+  font-size: 25px;
+}
+.header {
+  box-shadow: 0px 5px 10px black;
+}
+#nav{
+  background-color: white
+}
+#content{
+  margin-bottom: 120px;
+}
+#footer{
+  background-color:#24292f;
+  height:auto;
+}
+body{
+  background-color:#f2f4f4;
+}

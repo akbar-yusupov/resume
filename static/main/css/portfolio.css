@@ -1,0 +1,18 @@
+.service-wrapper {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.service-wrapper:hover {
+  -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+          box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+  background: #ffffff;
+  -webkit-transform: translateY(-22px);
+          transform: translateY(-22px);
+  border-color: transparent !important;
+}
+
+.project-image{
+  width: 370px;
+  height: 208px;
+}

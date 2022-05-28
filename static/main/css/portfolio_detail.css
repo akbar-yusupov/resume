@@ -1,0 +1,9 @@
+#project-image{
+  border-style: solid;
+}
+
+#project-body{
+  border-style: solid;
+  border-color:#004C99;
+  border-radius:30px;
+}

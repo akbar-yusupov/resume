@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-29 03:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\main\forms.py:9 .\main\models.py:140
+msgid "From Whom"
+msgstr "От Кого"
+
+#: .\main\forms.py:15
+msgid "Enter site/email"
+msgstr "Введите сайт/эмейл"
+
+#: .\main\forms.py:20 .\main\models.py:61 .\main\models.py:116
+#: .\main\models.py:141
+msgid "Title"
+msgstr "Заголовок"
+
+#: .\main\forms.py:26
+msgid "Enter title"
+msgstr "Введите заголовок"
+
+#: .\main\forms.py:31 .\main\models.py:142
+msgid "Message"
+msgstr "Сообщение"
+
+#: .\main\forms.py:37
+msgid "Enter message"
+msgstr "Введите сообщение"
+
+#: .\main\models.py:11
+msgid "Full time job"
+msgstr "Полный рабочий день"
+
+#: .\main\models.py:12
+msgid "Part-time job"
+msgstr "Неполный рабочий день"
+
+#: .\main\models.py:13 .\templates\main\index.html:55
+msgid "Busy"
+msgstr "Занят"
+
+#: .\main\models.py:16
+msgid "Remote work"
+msgstr "Удаленная работа"
+
+#: .\main\models.py:17
+msgid "Daily Commute"
+msgstr "Работа в офисе"
+
+#: .\main\models.py:19
+msgid "Photo"
+msgstr "Фото"
+
+#: .\main\models.py:21 .\templates\main\index.html:36
+msgid "Citizenship"
+msgstr "Гражданство"
+
+#: .\main\models.py:23
+msgid "City"
+msgstr "Город"
+
+#: .\main\models.py:24 .\main\models.py:62
+msgid "Description"
+msgstr "Описание"
+
+#: .\main\models.py:25
+msgid "Birth Date"
+msgstr "День Рождения"
+
+#: .\main\models.py:27
+msgid "Job Title"
+msgstr "Название работы"
+
+#: .\main\models.py:30
+msgid "Job Status"
+msgstr "Статус работы"
+
+#: .\main\models.py:33
+msgid "Job Type"
+msgstr "Тип работы"
+
+#: .\main\models.py:36
+msgid "Ready To Relocate"
+msgstr "Готов к переезду"
+
+#: .\main\models.py:44
+msgid "User"
+msgstr "Пользователь"
+
+#: .\main\models.py:45
+msgid "Users"
+msgstr "Пользователи"
+
+#: .\main\models.py:49 .\main\models.py:102 .\templates\main\index.html:32
+msgid "Name"
+msgstr "Имя"
+
+#: .\main\models.py:55
+msgid "Skill"
+msgstr "Навык"
+
+#: .\main\models.py:56
+msgid "Skills"
+msgstr "Навыки"
+
+#: .\main\models.py:60
+msgid "Start date"
+msgstr "Дата начала"
+
+#: .\main\models.py:63
+msgid "End date"
+msgstr "Дата конца"
+
+#: .\main\models.py:72
+#, fuzzy
+#| msgid "The start should be earlier than end"
+msgid "The start date should be earlier than end date"
+msgstr "Дата старта должна быть рань чем дата конца"
+
+#: .\main\models.py:75 .\main\models.py:76
+msgid "Work Experience"
+msgstr "Опыт работы"
+
+#: .\main\models.py:81
+msgid "Institute"
+msgstr "Институт"
+
+#: .\main\models.py:82
+msgid "Faculty"
+msgstr "Факультет"
+
+#: .\main\models.py:83
+msgid "Specialization"
+msgstr "Специальность"
+
+#: .\main\models.py:84
+msgid "Is Completed"
+msgstr "Окончен ли"
+
+#: .\main\models.py:90 .\main\models.py:91 .\templates\main\index.html:104
+msgid "Education"
+msgstr "Образование"
+
+#: .\main\models.py:96
+msgid "beginner"
+msgstr "начинающий"
+
+#: .\main\models.py:97
+msgid "pre-intermediate"
+msgstr "ниже среднего"
+
+#: .\main\models.py:98
+msgid "intermediate"
+msgstr "средний уровень"
+
+#: .\main\models.py:99
+msgid "upper intermediate"
+msgstr "выше среднего"
+
+#: .\main\models.py:100
+msgid "native speaker"
+msgstr "носитель языка"
+
+#: .\main\models.py:104
+msgid "Level"
+msgstr "Уровень"
+
+#: .\main\models.py:111
+msgid "Language"
+msgstr "Язык"
+
+#: .\main\models.py:112 .\templates\main\index.html:123
+msgid "Languages"
+msgstr "Языки"
+
+#: .\main\models.py:117
+msgid "Short Description"
+msgstr "Краткое Описание"
+
+#: .\main\models.py:118
+msgid "Body"
+msgstr "Тело"
+
+#: .\main\models.py:119
+msgid "Image"
+msgstr "Изображение"
+
+#: .\main\models.py:121
+msgid "Technologies"
+msgstr "Технологии"
+
+#: .\main\models.py:123
+msgid "Slug"
+msgstr "Слаг"
+
+#: .\main\models.py:124 .\main\models.py:143
+msgid "Created at"
+msgstr "Создано"
+
+#: .\main\models.py:125
+msgid "Is Active"
+msgstr "Активно ли"
+
+#: .\main\models.py:134 .\main\models.py:135 .\templates\main\base.html:25
+#: .\templates\main\portfolio_list.html:3
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: .\main\models.py:149 .\templates\main\base.html:30
+msgid "Contact"
+msgstr "Контакты"
+
+#: .\main\models.py:150
+msgid "Contacts"
+msgstr "Контакты"
+
+#: .\main\views.py:78
+msgid "Thank you. I will be in touch soon."
+msgstr "Спасибо. Я скоро свяжусь с вами."
+
+#: .\resume\settings.py:102
+msgid "English"
+msgstr "Английский"
+
+#: .\resume\settings.py:102
+msgid "Russian"
+msgstr "Русский"
+
+#: .\templates\404.html:14
+msgid "The page you are looking for has not been found."
+msgstr "Страница, которую вы ищете, не найдена."
+
+#: .\templates\404.html:15
+msgid "Back to Main"
+msgstr "Вернуться на главную"
+
+#: .\templates\main\base.html:6 .\templates\main\index.html:3
+msgid "Main"
+msgstr "Главная"
+
+#: .\templates\main\base.html:20
+msgid "На Главную"
+msgstr "На Главную"
+
+#: .\templates\main\base.html:45
+msgid "Send me an email"
+msgstr "Отправить мне эмейл"
+
+#: .\templates\main\base.html:48
+msgid "Copyright"
+msgstr "Авторские права"
+
+#: .\templates\main\base.html:48
+msgid "All rights reserved."
+msgstr "Все права защищены."
+
+#: .\templates\main\contact.html:3 .\templates\main\contact.html:7
+msgid "Contact me"
+msgstr "Связаться со мной"
+
+#: .\templates\main\contact.html:19
+msgid "Submit"
+msgstr "Отправить"
+
+#: .\templates\main\index.html:34
+msgid "years old (was born on"
+msgstr "лет(родился "
+
+#: .\templates\main\index.html:40
+msgid "ready to relocate"
+msgstr "готов к переезду"
+
+#: .\templates\main\index.html:42
+msgid "not ready to relocate"
+msgstr "не готов к переезду"
+
+#: .\templates\main\index.html:69
+msgid "Work experience"
+msgstr "Опыт работы"
+
+#: .\templates\main\index.html:91
+msgid "Knowledge and Skills"
+msgstr "Знания и навыки"
+
+#: .\templates\main\index.html:109
+msgid "(completed):"
+msgstr "(окончен)"
+
+#: .\templates\main\index.html:111
+msgid "(studying):"
+msgstr "(учусь)"
+
+#: .\templates\main\index.html:130
+msgid "Additional information:"
+msgstr "Дополнительная информация"
+
+#: .\templates\main\portfolio_list.html:10
+msgid "Active projects"
+msgstr "Активные проекты"
+
+#: .\templates\main\portfolio_list.html:12
+msgid "Search by"
+msgstr "Искать"
+
+#~ msgid "Home"
+#~ msgstr "На Главную"
